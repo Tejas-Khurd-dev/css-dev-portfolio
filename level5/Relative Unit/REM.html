@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Unit REM</title>
+    <style>
+        *{
+            font-size: 100px;
+        }
+        #first{
+            font-size: 25px;
+        }
+        #second{
+            font-size: 2rem;
+            /* 2rem means make size of #second font twice of *(root) font */
+        }
+    </style>
+</head>
+<body>
+    <div id="first">
+        first
+        <div id="second"> Second</div>
+    </div>
+</body>
+</html>
