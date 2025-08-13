@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .division{
+            height: 75px;
+            width: 75px;
+            padding: 5px;
+            margin: 20px;
+            background-color: rgb(255, 170, 0);
+            border: 5px solid black;
+        }
+        #div1{
+            box-sizing: content-box;
+            /* Total dimension = width/height + padding + border  (94.6 x 94.6) (Default case) */
+            /* Height and width are the box size of the content size */ 
+        }
+        #div2{
+            box-sizing: border-box;
+            /* Total dimension = width/height (75 x 75) (Box size) */
+        }
+    </style>
+</head>
+<body>
+    <div id="div1" class="division">Division 1</div> 
+    <div id="div2" class="division">Division 2</div>
+</body>
+</html>

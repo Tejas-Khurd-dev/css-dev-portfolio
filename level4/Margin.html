@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .division{
+            height: 55px;
+            width: 55px;
+            padding: 5px;
+            background-color: rgb(255, 170, 0);
+            /* Background color don't match with the margin */
+        }
+        #div1{
+            margin: 15px 10px 25px 20px;
+            
+        }
+        #div2{
+            margin: 50px;
+            
+            /* 2:56:58 --> IMP concept about margin merginig (Margin wiil be taken of highest margin box for this case it is 50) but if we add break this concept will not work */
+        }
+    </style>
+</head>
+<body>
+    <div id="div1" class="division">Division 1</div> 
+    <div id="div2" class="division">Division 2</div>
+</body>
+</html>

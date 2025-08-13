@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #padder{
+            height: 75px;
+            width: 75px;                            
+            padding: 5px 10px 5px 10px; 
+            /* Content hugging is padding */
+            /* Background color don't match with the margin */
+            /* padding: 10px --> 10px is set for all sides and padding moves clockwise */
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="padder">Padding Checker</div>
+</body>
+</html>
