@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+        .box{
+            margin: 10px;
+            height: 100px;
+            width: 100px;
+            background-color: rgb(14, 135, 60);
+            text-align: center;
+        }
+        #box1{
+            position: static;
+            /* Normal by default. But it print at document level */
+        }
+        #box2{
+            position: relative;
+            /* Move from its own relative postion and we can also ovelap with other box. But it print at document level */
+            top: 10px;
+            left: 150px;
+        }
+        #box3{
+            position: absolute;
+            /* Move from absolute position ie. webpage, we can also ovelap with other box and you can think that it is on page  */
+            top: 120px;
+            left: 5px;
+            
+        }
+        #box4{
+            position: fixed;
+            /* Position is fixed and you can think that it is on page */
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Static</div>
+    <div id="box2" class="box">Relative</div>
+    <div id="box3" class="box">Absolute</div>
+    <div id="box4" class="box">Fixed</div>
+
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis a nihil, facere suscipit magnam est cum amet distinctio sequi quasi ut ullam doloribus quam repudiandae fugit magni, aliquid placeat dolorum cupiditate dolore. Qui nemo quam deserunt fugit repellendus sunt, quidem illum ducimus vel et consectetur tempore id nulla at dicta temporibus! Laborum exercitationem deserunt impedit natus harum minus perspiciatis, provident magnam cum voluptate facere eveniet recusandae nam sint rem sunt necessitatibus? Praesentium reiciendis rerum fugiat quaerat perferendis perspiciatis voluptates, iure illum animi voluptatum magni explicabo impedit ratione tempora recusandae inventore odio officiis autem. Molestias, cupiditate, nihil quidem aliquid veniam exercitationem dolore vero molestiae accusamus quod numquam id! Quis, unde aperiam, consectetur sunt aliquam aliquid accusamus quos maiores provident tempora harum quam nisi, quo suscipit? Dolorum delectus quo, tempore culpa esse mollitia exercitationem iusto optio corrupti! Ex enim, vel magnam at repellat nisi qui asperiores ipsa molestias quam sed pariatur eum nostrum autem quibusdam tenetur dolore beatae necessitatibus unde? Et nihil omnis ipsum, debitis alias mollitia unde impedit minima sequi cum perferendis dolorem recusandae tenetur, quod eveniet laudantium deleniti? Ad laboriosam in perspiciatis magni quibusdam natus veniam, veritatis, officia facere ipsum illum laborum explicabo soluta saepe deleniti nemo aliquid necessitatibus consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, nulla tempore. Excepturi, eius iusto. Quaerat eos culpa qui quisquam aut quibusdam, ab explicabo esse inventore voluptates aliquam iusto rem voluptatem minima temporibus at facilis dolorem ipsa ratione accusamus. Deserunt minima veritatis libero quos, nulla perspiciatis in nobis recusandae aliquam accusantium sequi corrupti dolores tenetur rem officia asperiores, natus eligendi dolorem nemo ex repudiandae porro quae totam! Eius debitis nobis similique distinctio, ratione ea adipisci nam? Illum cum ut necessitatibus veritatis aspernatur quidem quia maxime autem obcaecati corrupti in eos commodi odit quod adipisci dolorum repudiandae vitae delectus sequi perspiciatis eum, dolor repellat doloribus facere. Aliquid ab, reiciendis eaque architecto expedita vel facere aperiam corporis eligendi et porro explicabo hic nostrum est! Inventore modi ullam magni excepturi illum! Numquam, esse tempore vel vero cumque quis quam praesentium deserunt, natus aliquid maiores eum, eaque magni impedit veritatis eius. Alias iusto cupiditate ad asperiores atque obcaecati at minus accusamus, eius est odit nam maxime omnis! Sunt at consectetur earum dicta impedit alias reprehenderit esse et, nulla numquam maxime qui ducimus asperiores, accusantium rerum. Repellat, quo, dolor, consectetur quidem eum voluptates fugit aperiam consequuntur enim vel voluptas molestias recusandae? Laborum impedit eveniet temporibus expedita.</div>
+
+    <div class="box"> Box for space</div>
+    <div class="box"> Box for space</div>
+    <div class="box"> Box for space</div>
+    <div class="box"> Box for space</div>
+</body>
+</html
