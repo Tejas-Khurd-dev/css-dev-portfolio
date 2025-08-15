@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries Combine</title>
+    <style>
+        #container{
+            margin: 5px;
+            height:200px;
+            width: 200px;
+            background-color: antiquewhite;
+            border: 2px solid black;
+            text-align: center;
+
+        }
+        @media screen and (min-width: 100px) and (max-width: 250px) {
+            #container { 
+                border-radius: 50%;
+                background-color: red;
+            }
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <div id="container">Container</div>
+</body>
+</html>

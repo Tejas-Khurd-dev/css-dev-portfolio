@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+}
+nav{
+    height: 30px;
+    background-color: rgb(242, 151, 14);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#imageContainer{
+    height: 500px;
+    margin: 5px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imageContainer img{
+    margin: 8px;
+    border: 2px solid black;
+
+}
+ 
+#boxContainer{
+    height: 100px;
+    width: 500px;
+    margin: 8px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box{
+    margin: 5px;
+    height: 75px;
+    width: 75px;
+    background-color: bisque;
+    border: 2px solid rebeccapurple;
+    flex-shrink: 0;
+}
+#box3{
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+/*
+
+flex-grow:
+Controls how much an item expands to fill available extra space.
+flex-shrink:
+Controls how much an item shrinks if there isn’t enough space.
+
+*/
+
+/* 
+
+ .box {
+  flex-shrink: 0;
+}
+This ensures all .box elements do not shrink when there isn’t enough space. 
+
+*/
+
+#mediaDiv{
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid blue;
+    text-align: center;
+    background-color: rgb(7, 255, 156);
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    #mediaDiv{
+        background-color: red;
+    }
+}
+@media screen and (min-width: 400px) {
+    #mediaDiv{
+        background-color: blue;
+    }
+}
