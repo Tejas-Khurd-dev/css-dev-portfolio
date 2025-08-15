@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation percentage</title>
+    <style>
+      #box1 {
+        height: 85px;
+        width: 78px;
+        border: 1px solid black;
+        border-radius: 5px;
+        position: relative;
+        left: 10px;
+        animation-name: slide;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+
+        animation-iteration-count: 6;
+        animation-direction: alternate;
+      }
+      #box2 {
+        height: 85px;
+        width: 78px;
+        border: 1px solid black;
+        border-radius: 5px;
+        position: relative;
+        top: 50px;
+        left: 10px;
+        background-color: lime;
+
+        animation: ghumakkad 4s ease-in-out 0s 4 alternate;
+      }
+      #box3 {
+        height: 85px;
+        width: 78px;
+        border: 1px solid black;
+        border-radius: 5px;
+        position: relative;
+        top: 150px;
+        left: 10px;
+        background-color: rgb(24, 43, 191);
+
+        animation: slideSlowFast 3s ease-in-out 0s infinite alternate;
+      }
+
+      @keyframes slide {
+        0% {
+          left: 10px;
+        }
+        100% {
+          left: 400px;
+        }
+      }
+
+      @keyframes ghumakkad {
+        0% {
+          left: 10px;
+          top: 50px;
+        }
+        50% {
+          left: 150px;
+          top: 100px;
+        }
+        100% {
+          left: 300px;
+          top: 50px;
+        }
+      }
+      @keyframes slideSlowFast {
+        0% {
+          left: 10px;
+        }
+        40% {
+          left: 50px;
+        }
+        100% {
+          left: 400px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box1">Animation1</div>
+    <div id="box2">Animation2</div>
+    <div id="box3">Animation3</div>
+  </body>
+</html>

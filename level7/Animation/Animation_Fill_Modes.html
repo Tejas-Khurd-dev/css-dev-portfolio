@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation Fill Modes</title>
+    <style>
+      body {
+          font-family: sans-serif;
+      }
+      .container {
+          display: flex;
+          flex-direction: column;
+          margin-top: 40px;
+      }
+      .box {
+          height: 75px;
+          width: 75px;
+          margin: 10px;
+          border: 2px solid black;
+          text-align: center;
+          line-height: 75px;
+          font-size: 13px;
+          position: relative;
+          /* Default style before any animation applies */
+          background-color: gray;
+        /
+      }
+
+      /* NONE */
+      #box1 {
+          animation: slideNone 2s ease-in-out 2s 1 normal none;
+      }
+
+      /* FORWARDS: Keeps the final animation state */
+      #box2 {
+          animation: slideForward 2s linear 2s 1 normal forwards;
+      }
+
+      /* BACKWARDS: Applies initial animation state during delay */
+      #box3 {
+          animation: slideBackwards 2s ease-in 2s 1 normal backwards;
+      }
+
+      /* BOTH: Applies initial state during delay AND keeps final state after */
+      #box4 {
+          animation: slideBoth 2s ease-out 2s 1 normal both;
+      }
+
+      /* Keyframes */
+      @keyframes slideNone {
+          from { left: 0px; background-color: pink; }
+          to   { left: 150px; background-color: orange; }
+      }
+      @keyframes slideForward {
+          from { left: 0px; background-color: pink; }
+          to   { left: 150px; background-color: orange; }
+      }
+      @keyframes slideBackwards {
+          from { left: 0px; background-color: pink; }
+          to   { left: 150px; background-color: orange; }
+      }
+      @keyframes slideBoth {
+          from { left: 0px; background-color: pink; }
+          to   { left: 150px; background-color: orange; }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Animation Fill Modes</h2>
+
+    <div class="container">
+      <div class="box" id="box1">none</div>
+      <div class="box" id="box2">forwards</div>
+      <div class="box" id="box3">backwards</div>
+      <div class="box" id="box4">both</div>
+    </div>
+  </body>
+</html>
