@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  height: 80px;
+  background-color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #efe8e8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.logoContainer {
+  margin-left: 4%;
+}
+.myntraLogo {
+  width: 53px;
+}
+.actionBar {
+  margin-right: 4%;
+}
+
+.navBar {
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 525px;
+}
+.navBar a {
+  padding: 30px 0px 30px 0px;
+  margin: 2px;
+  width: 80px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  color: #282c3f;
+  font-weight: 700;
+
+  border-bottom: 1px solid transparent;
+}
+.navBar #menNav:hover {
+  border-bottom: 2px solid #ee5f73;
+}
+.navBar #womenNav:hover {
+  border-bottom: 2px solid #fb56c1;
+}
+.navBar #kidsNav:hover {
+  border-bottom: 2px solid #f26a10;
+}
+.navBar #homeNav:hover {
+  border-bottom: 2px solid #f2c210;
+}
+.navBar #beautyNav:hover {
+  border-bottom: 2px solid #0db7af;
+}
+.navBar #genzNav:hover {
+  border-bottom: 2px solid #0db7af;
+}
+.navBar #studioNav:hover {
+  border-bottom: 2px solid #ff3f6c;
+}
+
+.navBar a sup {
+  font-weight: 600;
+  color: #ff3f6c;
+  font-size: 10px;
+  vertical-align: super; /* makes it appear properly above text */
+  margin-left: 2px; /* small spacing after "STUDIO" */
+}
+
+.searchBar {
+  display: flex;
+  min-width: 400px;
+  height: 40px;
+  align-items: center;
+}
+.searchIcon {
+  box-sizing: content-box;
+  height: 25px;
+  padding: 7px;
+  background-color: #f5f5f6;
+  color: #696e79;
+  font-weight: 300;
+  border-radius: 4px 0 0 4px;
+  border: 0px;
+}
+.inputSearchBar {
+  color: #696e7a;
+  background-color: #f5f5f6;
+  border: 1px solid #f5f5f6;
+  flex-grow: 1;
+  height: 40px;
+  border-radius: 0 4px 4px 0;
+  border: 0px;
+}
+
+.actionBar {
+  width: 170px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 30px 0px;
+}
+.actionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.actionIcon {
+  font-weight: 100;
+  color: #696e7a;
+}
+.actionName {
+  font-size: 12px;
+  color: #696e7a;
+}
+#profileName:hover {
+  border-bottom: 2px solid #ff3f6c;
+}
+
+/* Main Section */
+
+.bannerContainer {
+  margin: 105px 0px;
+}
+.bannerImage {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.categorySection {
+  margin: 2px;
+}
+.categoryHeading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  font-weight: 700;
+}
+.categoryItems {
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  /* In CSS, gap is the space between items in a flexbox or grid container — kind of like the “social distancing” rule for HTML elements. */
+  justify-content: space-evenly;
+}
+
+.moreBrandsHeading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  font-weight: 700;
+}
+.brandImages {
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-evenly;
+}
+
+/* Footer */
+
+footer {
+  background-color: #e2e7f0;
+}
+.footerContainer {
+  background-color: #e2e7f0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.footerHeader {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+.footerColumn a {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: 12px;
+  padding-bottom: 5px;
+  color: #3e4152;
+  font-weight: bold;
+}
+.divRow {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.originalMargin {
+  margin-top: 5px;
+}
+.returnTag {
+  position: relative;
+  left: 5px;
+}
+#playstoreImg {
+  margin-top: 5px;
+}
+
+.copyright {
+  background-color: #e2e7f0;
+  margin-bottom: 5px;
+  width: 100%;
+  margin-left: 25px;
+  margin-right: 10px;
+  font-size: 12px;
+  color: #3e4152;
+  font-weight: bold;
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+}
