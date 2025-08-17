@@ -7,14 +7,6 @@ These projects were completed as part of my web development learning journey to 
 
 ### Main Branch
 The `main` branch contains my CSS practice exercises, organized by difficulty levels:
-mages/ # Folder containing images used in exercises
-level1/ # Level 1 practice
-level2/ # Level 2 practice
-level3/ # Level 3 practice
-level4/ # Level 4 practice
-level5/ # Level 5 practice
-level6/ # Level 6 practice 
-level7/ # Level 7 practice
 
 Each level includes various html files and supporting files showcasing different CSS concepts and techniques.
 
@@ -41,8 +33,8 @@ You can view the live Myntra clone [here](https://tejas-khurd-dev.github.io/css-
 
 ## Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Responsive Web Design (Media Queries)
 
 ## Author
