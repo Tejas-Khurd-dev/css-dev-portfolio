@@ -18,7 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #efe8e8;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
