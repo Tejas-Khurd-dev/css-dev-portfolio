@@ -1,0 +1,129 @@
+File Tree: css-dev-portfolio
+
+├── 📁 .git/ 🚫 (auto-hidden)
+├── 📁 Images/
+│   ├── 🖼️ Cup.jpg
+│   ├── 🖼️ Musashi.jpg
+│   └── 🖼️ Myntra_Logo.jpg
+├── 📁 level1/
+│   ├── 📁 Practice Set 1/
+│   │   ├── 🎨 Style.css
+│   │   └── 🌐 index.html
+│   ├── 🌐 Class_Id_Selector.html
+│   ├── 🌐 Descendant.html
+│   ├── 🎨 External_Style.css
+│   ├── 🌐 External_Style.html
+│   ├── 🌐 Group_Selector.html
+│   ├── 🌐 Inline_Style.html
+│   ├── 🌐 Internal_Style.html
+│   └── 🌐 Universal_Selector.html
+├── 📁 level2/
+│   ├── 📁 Practice Set 2/
+│   │   ├── 🎨 Style.css
+│   │   ├── 🌐 index1.html
+│   │   └── 🌐 index2.html
+│   ├── 🌐 Alpha_Channel.html
+│   ├── 🌐 Background.html
+│   ├── 🌐 Background_Image.html
+│   ├── 🌐 Heigth_and_Width.html
+│   ├── 🌐 Hex_Color.html
+│   ├── 🌐 RGB_Color.html
+│   └── 🌐 Visibility.html
+├── 📁 level3/
+│   ├── 📁 Practice Set 3/
+│   │   ├── 🎨 Style.css
+│   │   └── 🌐 index.html
+│   ├── 🌐 Font_Family.html
+│   ├── 🌐 Font_Size_&_Weight.html
+│   ├── 🌐 Font_Style.html
+│   ├── 🌐 Icon_Using_Font_Family.html
+│   ├── 🌐 Line_Height.html
+│   ├── 🌐 Text_Align.html
+│   ├── 🌐 Text_Decoration.html
+│   └── 🌐 Text_Transform.html
+├── 📁 level4/
+│   ├── 📁 Practice Set 4/
+│   │   ├── 🎨 Style.css
+│   │   ├── 🌐 index1.html
+│   │   └── 🌐 index2.html
+│   ├── 🌐 Border.html
+│   ├── 🌐 Border_Property.html
+│   ├── 🌐 Box_Sizing.html
+│   ├── 🌐 Margin.html
+│   └── 🌐 Padding.html
+├── 📁 level5/
+│   ├── 📁 Practice Set 5/
+│   │   ├── 🎨 Style.css
+│   │   └── 🌐 index.html
+│   ├── 📁 Relative Unit/
+│   │   ├── 🌐 EM.html
+│   │   ├── 🌐 Percentage.html
+│   │   ├── 🌐 REM.html
+│   │   └── 🌐 VW_VH.html
+│   ├── 🌐 Display_None.html
+│   ├── 🌐 Display_Property.html
+│   ├── 🌐 Position_Property.html
+│   └── 🌐 z-Index.html
+├── 📁 level6/
+│   ├── 📁 Align Content/
+│   │   ├── 📄 Along cross axis
+│   │   ├── 🌐 Center.html
+│   │   ├── 🌐 End.html
+│   │   └── 🌐 Start.html
+│   ├── 📁 Align Item/
+│   │   ├── 🌐 Align_Self.html
+│   │   ├── 📄 Along cross axis
+│   │   ├── 🌐 Center.html
+│   │   ├── 🌐 End.html
+│   │   ├── 🌐 Order.html
+│   │   └── 🌐 Start.html
+│   ├── 📁 Flex Box/
+│   │   ├── 📁 Flex Drection/
+│   │   │   ├── 📄 Along main axis
+│   │   │   ├── 🌐 Flex_Column.html
+│   │   │   ├── 🌐 Flex_Column_Reverse.html
+│   │   │   ├── 🌐 Flex_Row.html
+│   │   │   └── 🌐 Flex_Row_Reverse.html
+│   │   ├── 📁 Flex Wrap/
+│   │   │   ├── 📄 Along main axis
+│   │   │   ├── 🌐 NoWrap.html
+│   │   │   ├── 🌐 Wrap.html
+│   │   │   └── 🌐 WrapReverse.html
+│   │   ├── 📁 Justify Content/
+│   │   │   ├── 📄 Along main axis
+│   │   │   ├── 🌐 Center.html
+│   │   │   ├── 🌐 FLex_Start.html
+│   │   │   ├── 🌐 Flex_End.html
+│   │   │   ├── 🌐 Space_Around.html
+│   │   │   ├── 🌐 Space_Between.html
+│   │   │   └── 🌐 Space_Evenly.html
+│   │   ├── 🌐 Flex_Grow.html
+│   │   └── 🌐 Flex_Shrink.html
+│   ├── 📁 Practice Set 6/
+│   │   ├── 🎨 Style.css
+│   │   └── 🌐 index.html
+│   ├── 📄 Axes of page
+│   ├── 🌐 Float.html
+│   ├── 🌐 Grid.html
+│   ├── 🌐 MediaQueries1.html
+│   ├── 🌐 MediaQueries2.html
+│   └── 🌐 MediaQueriesCombine.html
+├── 📁 level7/
+│   ├── 📁 Animation/
+│   │   ├── 🌐 Animation.html
+│   │   ├── 🌐 Animation_Fill_Modes.html
+│   │   └── 🌐 Animation_Percentage.html
+│   ├── 📁 CSS Transform/
+│   │   ├── 🌐 Transform_Rotate.html
+│   │   ├── 🌐 Transform_Scale.html
+│   │   ├── 🌐 Transform_Skew.html
+│   │   └── 🌐 Transform_Translate.html
+│   ├── 📁 Practice Set 7/
+│   │   ├── 🌐 index.html
+│   │   └── 🎨 style.css
+│   ├── 🌐 Pseudo_Classes.html
+│   └── 🌐 Transition.html
+├── 📄 File_Tree.txt
+├── 📜 LICENSE
+├── 📖 README.md
+└── 🌐 index.html
